@@ -245,13 +245,26 @@ header .intro-text {
 	background: #444 url(../img/menu-bg.png) center center no-repeat fixed;
 	background-size: cover;
 }
+
+
+
+.menu-item img {
+	border-radius: 60%; /* Para hacer las imágenes redondas */
+	width: 60px; /* Tamaño de la imagen */
+	height: 60px; /* Tamaño de la imagen */
+	max-width: 60px; /* Establece el tamaño máximo de la imagen */
+	margin-right: 2px; /* Espacio entre la imagen y el texto */
+}
 #restaurant-menu .section-title h2 {
 	color: #fff;
 }
+
 #restaurant-menu img {
 	width: 300px;
-	box-shadow: 15px 0 #ffe600;
+	/*box-shadow: 15px 0 #3300ff;*/
 }
+
+
 #restaurant-menu h3 {
 	padding: 10px 0;
 	text-transform: uppercase;
